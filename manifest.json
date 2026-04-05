@@ -1,0 +1,20 @@
+{
+  "name": "Familienarchiv",
+  "short_name": "Archiv",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#f4e9d5",
+  "theme_color": "#c7a97a",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
