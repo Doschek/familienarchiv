@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Familienarchiv</title>
+
+    <!-- Manifest einbinden -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Grundstil -->
+    <style>
+        body {
+            font-family: sans-serif;
+            background: #f4e9d5; /* helles Sepia */
+            margin: 0;
+            padding: 2rem;
+            color: #3e2f1c;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: #fff8ee;
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Familienarchiv</h1>
+
+    <div class="container">
+        <p>Willkommen im Familienarchiv.  
+        Diese App kann auf Ihrem Gerät installiert werden und funktioniert auch offline.</p>
+
+        <p>Hier können später Formulare, Inhalte oder Navigationselemente eingefügt werden.</p>
+    </div>
+
+    <!-- Service Worker registrieren -->
+    <script>
+        if ("serviceWorker" in navigator) {
+            navigator
